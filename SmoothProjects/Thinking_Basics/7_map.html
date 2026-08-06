@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bf9859e544e6a5e527c50e06f18bb431 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_bf9859e544e6a5e527c50e06f18bb431" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_bf9859e544e6a5e527c50e06f18bb431 = L.map(
+                "map_bf9859e544e6a5e527c50e06f18bb431",
+                {
+                    center: [28.61, 77.23],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_21266b0bae02b0f94c8f5ea34da0656b = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_21266b0bae02b0f94c8f5ea34da0656b.addTo(map_bf9859e544e6a5e527c50e06f18bb431);
+        
+    
+            var marker_2b4b452ca31eac258409312f0e6ca266 = L.marker(
+                [28.61, 77.23],
+                {
+}
+            ).addTo(map_bf9859e544e6a5e527c50e06f18bb431);
+        
+    
+        var popup_05c1c30ac1028374d1e5f22632ade55a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0775fe5841b1e92cf8c222b5dce80f24 = $(`<div id="html_0775fe5841b1e92cf8c222b5dce80f24" style="width: 100.0%; height: 100.0%;">New Delhi</div>`)[0];
+                popup_05c1c30ac1028374d1e5f22632ade55a.setContent(html_0775fe5841b1e92cf8c222b5dce80f24);
+            
+        
+
+        marker_2b4b452ca31eac258409312f0e6ca266.bindPopup(popup_05c1c30ac1028374d1e5f22632ade55a)
+        ;
+
+        
+    
+</script>
+</html>

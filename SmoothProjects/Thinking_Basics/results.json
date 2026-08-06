@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Rahul",
+        "age": 18,
+        "marks": 75,
+        "result": "pass"
+    },
+    {
+        "name": "Priya",
+        "age": 19,
+        "marks": 40,
+        "result": "fail"
+    },
+    {
+        "name": "Amit",
+        "age": 20,
+        "marks": 55,
+        "result": "pass"
+    }
+]
